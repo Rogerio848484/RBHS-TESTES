@@ -53,7 +53,7 @@
        <origin>0 0</origin>
        <pos>0 0</pos>
        <size>1 1</size>
-       <path>./_inc/gamelistlaunchbox.png</path>
+       <path>./ARTES/ARTES GAMELIST/gamelistlaunchbox.png</path>
 	   <zIndex>2</zIndex>          
     </image>
 	
@@ -61,7 +61,7 @@
        <origin>0 0</origin>
        <pos>0.04 0.025</pos>
        <maxSize>0.25 0.12</maxSize>
-       <path>./_inc/logosclean/${system.theme}.png</path>
+       <path>./ARTES/LOGOS/logoclean/${system.theme}.png</path>
        <zIndex>8</zIndex>          
     </image>
 	
@@ -69,7 +69,7 @@
        <origin>0 0</origin>
        <pos>0.73 0.015</pos>
        <maxSize>0.15</maxSize>
-       <path>./_inc/consoles/${system.theme}.png</path>
+       <path>./ARTES/consoles/${system.theme}.png</path>
        <zIndex>900</zIndex>          
     </image>
 
