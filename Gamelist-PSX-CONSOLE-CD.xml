@@ -140,7 +140,7 @@
 <visible>true</visible>
 <pos>0 0</pos>
 <maxSize>1 1</maxSize>
-<path>./ARTES/ARTES GAMELIST/PS1/moldura 4x3 psx.png</path>
+<path>./ARTES/ARTES GAMELIST/MOLDURAS/tv2.png</path>
 <storyboard event="open">   	   
 <animation mode="easeOut" from="0" to="0" duration="500" property="opacity"/>
 <animation mode="easeOut" from="0" to="1" begin="5000" duration="500" property="opacity"/> 
