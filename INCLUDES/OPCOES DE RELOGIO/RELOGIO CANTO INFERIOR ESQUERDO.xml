@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<theme defaultView="gamecarousel">
+<formatVersion>7</formatVersion>
+		
+<!---------------------------screen------------------------------------- -->
+
+<view name="screen">
+<text name="clock">
+		<fontSize>0.034</fontSize>
+		<color>ffffff</color>
+		<glowColor>000000</glowColor>
+		<pos>-0.04 0.9545</pos>
+		<size>0.10 0.058</size>
+		<fontPath>./fonts/Digital-Serial-Bold.ttf</fontPath>
+		<verticalAlignment>right</verticalAlignment>
+		</text>
+</view>
+  </theme>
