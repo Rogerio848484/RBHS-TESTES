@@ -137,24 +137,20 @@
 </image>
 	
 <image name="system-background9" extra="true">
-<visible>true</visible>
 <pos>0 0</pos>
 <maxSize>1 1</maxSize>
 <path>./ARTES/ARTES GAMELIST/MOLDURAS/tv2.png</path>
 <storyboard event="open">   	   
 <animation mode="easeOut" from="0" to="0" duration="500" property="opacity"/>
 <animation mode="easeOut" from="0" to="1" begin="5000" duration="500" property="opacity"/> 
-<animation property="h" mode="linear" from="0.9" begin="5000" to="1"  duration="500"/>
 </storyboard> 	
 <storyboard event="activatePrev">   	   
 <animation mode="easeOut" from="0" to="0" duration="500" property="opacity"/>
 <animation mode="easeOut" from="0" to="1" begin="5000" duration="500" property="opacity"/> 
-<animation property="h" mode="linear" from="0.9" begin="5000" to="1"  duration="500"/>
 </storyboard> 	
 <storyboard event="activateNext">   	   
 <animation mode="easeOut" from="0" to="0" duration="500" property="opacity"/>
 <animation mode="easeOut" from="0" to="1" begin="5000" duration="500" property="opacity"/> 
-<animation property="h" mode="linear" from="0.9" begin="5000" to="1"  duration="500"/>
 </storyboard> 	      	   
 <zIndex>1000</zIndex>          
 </image>
