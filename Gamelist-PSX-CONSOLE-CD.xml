@@ -69,7 +69,7 @@
 <maxSize>0.30 0.30</maxSize>
 <path>./ARTES/LOGOS/LOGOCLEAN/${system.theme}.png</path>	 
 <color>ffffff</color>
-<zIndex>400</zIndex>
+<zIndex>1001</zIndex>
 <storyboard> 
 <animation property="scale" mode="linear" from="0.8" begin="0" to="1"  duration="4500"/>
 <animation mode="easyIn" duration="2500" begin="0" property="scale" repeat="forever" autoreverse="true" from="1.00" to="1.02"/>	
@@ -137,20 +137,20 @@
 </image>
 	
 <image name="system-background9" extra="true">
-<pos>0 0</pos>
+<pos>0.08 -0.3</pos>
 <maxSize>1 1</maxSize>
 <path>./ARTES/ARTES GAMELIST/MOLDURAS/tv2.png</path>
 <storyboard event="open">   	   
 <animation mode="easeOut" from="0" to="0" duration="500" property="opacity"/>
-<animation mode="easeOut" from="0" to="1" begin="5000" duration="500" property="opacity"/> 
+<animation mode="easeOut" from="0" to="1" begin="5000" duration="1000" property="opacity"/> 
 </storyboard> 	
 <storyboard event="activatePrev">   	   
 <animation mode="easeOut" from="0" to="0" duration="500" property="opacity"/>
-<animation mode="easeOut" from="0" to="1" begin="5000" duration="500" property="opacity"/> 
+<animation mode="easeOut" from="0" to="1" begin="5000" duration="1000" property="opacity"/> 
 </storyboard> 	
 <storyboard event="activateNext">   	   
 <animation mode="easeOut" from="0" to="0" duration="500" property="opacity"/>
-<animation mode="easeOut" from="0" to="1" begin="5000" duration="500" property="opacity"/> 
+<animation mode="easeOut" from="0" to="1" begin="5000" duration="1000" property="opacity"/> 
 </storyboard> 	      	   
 <zIndex>1000</zIndex>          
 </image>
@@ -186,7 +186,7 @@
 <image name="md_fanart">
 <size>1 1</size>
 <pos>0.5 0.5</pos>
-<visible>true</visible>
+<visible>false</visible>
 </image> 
 	  
 <image name="md_thumbnail">
@@ -246,16 +246,13 @@
 <showSnapshotDelay>false</showSnapshotDelay>
 <zIndex>5</zIndex> 
 <storyboard event="open"> 
-<animation property="scale" mode="linear" from="0" to="1" begin="5000" duration="500"/>
-<animation property="rotation" begin="5000" from="360" duration="600" mode="linear"/>
+<animation property="scale" mode="linear" from="0.95" to="1" begin="5000" duration="500"/>
 </storyboard>
 <storyboard event="activatePrev"> 
-<animation property="scale" mode="linear" from="0" to="1" begin="5000" duration="500"/>
-<animation property="rotation" begin="5000" from="360" duration="600" mode="linear"/>
+<animation property="scale" mode="linear" from="0.95" to="1" begin="5000" duration="500"/>
 </storyboard>
 <storyboard event="activateNext"> 
-<animation property="scale" mode="linear" from="0" to="1" begin="5000" duration="500"/>
-<animation property="rotation" begin="5000" from="360" duration="600" mode="linear"/>
+<animation property="scale" mode="linear" from="0.95" to="1" begin="5000" duration="500"/>
 </storyboard>     
 </video> 
 
