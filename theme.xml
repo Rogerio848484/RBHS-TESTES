@@ -149,7 +149,7 @@
 <include name="detailed">./detailed.xml</include>
 <include name="gamecarousel">./gamecarousel.xml</include>
 <include name="video">./video.xml</include>
-<include name="Gamelist CRAFTGAMES - PSX Horizontal Console CD">./Gamelist-CRAFTGAMES-PSX-CONSOLE-CD.xml</include>
+<include name="Gamelist CRAFTGAMES - PSX Horizontal Console CD">./Gamelist-PSX-CONSOLE-CD.xml</include>
 <include name="Gamelist Full Artes">./Gamelist-FULL-ARTES.xml</include>
   
   </theme>
