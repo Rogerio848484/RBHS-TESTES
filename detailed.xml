@@ -412,11 +412,7 @@ IMPORTANTE: para criar uma arte nos temas baseados nesses temas obrigatorios, a 
 <text name="logoText">
 <visible>false</visible> 
 </text>
-		
-		
-
 
  </view>
- 
- 
-   </theme>
+  
+ </theme>
